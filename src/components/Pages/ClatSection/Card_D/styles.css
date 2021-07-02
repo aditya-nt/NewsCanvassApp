@@ -1,0 +1,18 @@
+.thing-D {
+    padding: 1rem;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+      0 5px 15px 0 rgba(0,0,0,0.08);
+    background-color: #ffffff56;
+    border-radius: 0.5rem;
+    
+   color: #fff;
+  }
+  
+  .thing-D h4{
+    color: #fff;
+  }
+  
+  .heading {
+    color: #fff;
+  }
+  

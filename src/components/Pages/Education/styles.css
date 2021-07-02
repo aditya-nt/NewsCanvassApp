@@ -1,0 +1,82 @@
+
+.hero_row, .video_gallery_row, .post_gallery_row {
+    flex-direction: column;
+}
+.hero_row {
+    display: flex;
+    margin-bottom: 40px;
+}
+*, html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, label, fieldset, input, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+}
+div {
+    display: block;
+}
+
+.widget ul li, .post-entry, p, .post-entry p {
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+
+#post-7293 > div.post-entry.blockquote-style-2 > div > div.hero_row{
+    --coblocks-spacing--0: 0;
+    --coblocks-spacing--1: 0.5em;
+    --coblocks-spacing--2: 1em;
+    --coblocks-spacing--3: 1.5em;
+    --coblocks-spacing--4: 2em;
+    --coblocks-spacing--5: 2.5em;
+    --coblocks-spacing--6: 3em;
+    --coblocks-spacing--7: 3.5em;
+    --coblocks-spacing--8: 4em;
+    --coblocks-spacing--9: 4.5em;
+    --coblocks-spacing--10: 7em;
+    --wp-admin-theme-color: #007cba;
+    --wp-admin-theme-color-darker-10: #006ba1;
+    --wp-admin-theme-color-darker-20: #005a87;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: #afafaf;
+    font-size: 15px;
+    line-height: 1.8;
+    -webkit-box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-bottom: 40px;
+    flex-direction: column;
+}
+
+.gallery_title {
+    display: flex;
+}
+
+
+.home_gallery_title:after {
+    
+    position: absolute;
+    background: #fff;
+    height: 2px;
+    margin: 10px 0 10px 2px;
+    width: 30%;
+}
+
+.post-entry a, .container-single .post-entry a {
+    color: #ff9800;
+}
+
+.hr-my {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid rgb(252 252 252);
+}

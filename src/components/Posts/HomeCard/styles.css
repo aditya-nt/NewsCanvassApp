@@ -1,0 +1,49 @@
+.hero-row{
+    background-color : "#000000"
+  }
+  
+  .hero_row, .video_gallery_row, .post_gallery_row {
+      flex-direction: column;
+  }
+  
+  .hero_row {
+      display: flex;
+      margin-bottom: 40px;
+  }
+  
+  .hero_text, .hero_image, .post_box, .video_box {
+      width: 100%!important;
+      margin-bottom: 30px;
+  }
+  
+  .hero_text {
+      align-self: center;
+      width: 68%;
+  }
+  
+  .hero_text h1 {
+      font-size: 3rem;
+      /* font-family: Roboto; */
+      color: #fff!important;
+  }
+  
+  .hero_text h5 {
+      font-size: 1.4rem;
+      /* font-family: Roboto; */
+      color: #fff!important;
+  }
+  
+  .hero_text, .hero_image, .post_box, .video_box {
+      width: 100%!important;
+      margin-bottom: 30px;
+  }
+  
+  .post-entry img {
+      max-width: 100%;
+      height: auto;
+  }
+  img {
+      max-width: 100%;
+      vertical-align: top;
+      /* height: auto; */
+  }

@@ -1,0 +1,28 @@
+.thing-B {
+    padding: 1rem;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+      0 5px 15px 0 rgba(0,0,0,0.08);
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    
+    border-left: 0.5rem solid #ff0000;
+    transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
+  }
+  
+  .thing-B:hover {
+    padding-left: 0.5rem;
+    border-left: 0 solid #ff0000;
+  }
+  
+  .thing-B > :first-child {
+    margin-top: 0;
+  }
+  
+  .thing-B > :last-child {
+    margin-bottom: 0;
+  }
+  
+  .heading {
+    color: #fff;
+  }
+  

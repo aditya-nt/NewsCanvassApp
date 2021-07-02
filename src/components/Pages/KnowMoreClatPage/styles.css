@@ -1,0 +1,19 @@
+.ns-image {
+    max-width: 50vw;
+    vertical-align: top;
+    height: auto;
+}
+
+.ns-container {
+    color: aliceblue;
+}
+
+
+.know-card 
+span{
+    font-family: 'Poppins';
+}
+.know-card  b,.know-card  strong {
+    font-weight: 600;
+    font-family: 'Poppins';
+}
