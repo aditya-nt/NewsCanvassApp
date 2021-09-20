@@ -92,7 +92,7 @@ function Education(props) {
                         </div>
                         <br />
                         <div className="row">
-                            <div className="col-xs-12 col-md-6 col-lg-3">
+                            <div className="col-xs-12 col-md-6 col-lg-3 mb-2">
 
                                 <div className="card" style={{ width: '16rem', border: 'none', borderRadius: '10px', height: '400px' }}>
                                     <img className="card-img-top" src={CLAT1} alt="Card image cap" style={{ borderRadius: '10px 10px 0px 0px', height: '134px' }} />
@@ -109,7 +109,7 @@ function Education(props) {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xs-12 col-md-6 col-lg-3">
+                            <div className="col-xs-12 col-md-6 col-lg-3 mb-2">
 
                                 <div className="card" style={{ width: '16rem', border: 'none', borderRadius: '10px', height: '400px' }}>
                                     <img className="card-img-top" src={CLAT2} alt="Card image cap" style={{ borderRadius: '10px 10px 0px 0px', height: '134px' }} />
@@ -126,7 +126,7 @@ function Education(props) {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xs-12 col-md-6 col-lg-3">
+                            <div className="col-xs-12 col-md-6 col-lg-3 mb-2">
 
                                 <div className="card" style={{ width: '16rem', border: 'none', borderRadius: '10px', height: '400px' }}>
                                     <img className="card-img-top" src={CLAT3} alt="Card image cap" style={{ borderRadius: '10px 10px 0px 0px', height: '134px' }} />
@@ -143,7 +143,7 @@ function Education(props) {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xs-12 col-md-6 col-lg-3">
+                            <div className="col-xs-12 col-md-6 col-lg-3 mb-2">
 
                                 <div className="card" style={{ width: '16rem', border: 'none', borderRadius: '10px', height: '400px' }}>
                                     <img className="card-img-top" src={CLAT4} alt="Card image cap" style={{ borderRadius: '10px 10px 0px 0px', height: '134px' }} />
@@ -178,8 +178,8 @@ function Education(props) {
 
 
                     <div className="row" >
-                        <h1 className="text-center" style={{ color: '#ff9800' }}>NewsCanvassEdu
-                        </h1>
+                        <h2 className="text-center" style={{ color: '#ff9800' }}>NEWSCANVASSEDU
+                        </h2>
                     </div>
                     <br />
                     <div className="row">
@@ -194,8 +194,8 @@ function Education(props) {
                     <br />
 
                     <div className="row">
-                        <div className="col">
-                            <div className="card" style={{ width: '100%', border: 'none' }}>
+                        <div className="col mb-2">
+                            <div className="card" style={{ width: '100%', border: 'none' , height : '100%'}}>
                                 <img className="card-img-top" src={MOT1} alt="Card image cap" />
                                 <div className="card-body">
                                     <h5 className="card-text text-center">Save Time..
@@ -207,8 +207,8 @@ function Education(props) {
 
 
                         </div>
-                        <div className="col">
-                            <div className="card" style={{ width: '100%', border: 'none' }}>
+                        <div className="col mb-2">
+                            <div className="card" style={{ width: '100%', border: 'none' , height : '100%'}}>
                                 <img className="card-img-top" src={MOT2} alt="Card image cap" />
                                 <div className="card-body">
                                     <h5 className="card-text text-center">Get Curated Content..
@@ -220,8 +220,8 @@ function Education(props) {
 
 
                         </div>
-                        <div className="col">
-                            <div className="card" style={{ width: '100%', border: 'none' }}>
+                        <div className="col mb-2">
+                            <div className="card" style={{ width: '100%', border: 'none' , height : '100%'}}>
                                 <img className="card-img-top" src={MOT3} alt="Card image cap" />
                                 <div className="card-body">
                                     <h5 className="card-text text-center">Stay Ahead Of The Curve..
@@ -235,7 +235,6 @@ function Education(props) {
 
                         </div>
                     </div>
-                    <br />
 
 
 

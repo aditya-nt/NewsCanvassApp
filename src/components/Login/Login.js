@@ -82,7 +82,7 @@ export default function Login() {
 
              
             </Card.Body>
-            <Row><Col xs={12} md={12}>
+            {/* <Row><Col xs={12} md={12}>
               <h6 className="text-center mb-4">Or sign in using</h6>
 
             </Col>
@@ -90,28 +90,8 @@ export default function Login() {
             </Row>
             <Row>
 
-            <Col xs={3} md={3}>
-              </Col>
-              <Col xs={2} md={2}>
-             
-                <Image  src="https://image.flaticon.com/icons/svg/145/145812.svg" roundedCircle />
-
-                {/* <GoogleLogin/> */}
-
-              </Col>
-              <Col xs={2} md={2}>
-                <a href="#">
-                <Image src="https://image.flaticon.com/icons/svg/145/145804.svg" roundedCircle />
-                </a>
-              </Col>
-              <Col xs={2} md={2}>
-                <a href="#">
-                <Image src="https://image.flaticon.com/icons/svg/145/145802.svg" roundedCircle />
-                </a>
-              </Col>
-              <Col xs={3} md={3}>
-              </Col>
-            </Row>
+            <GoogleLogin/>
+            </Row> */}
 
             <hr />
 

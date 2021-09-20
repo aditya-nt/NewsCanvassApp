@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {  rdb } from '../../../firebase'
+import { rdb } from '../../../firebase'
 import NewsSimplifiedCard from '../../Posts/NewsSimplifiedCard';
 
 
@@ -61,7 +61,7 @@ export default class NewsSimplifiedCardHolder extends Component {
         return (
 
 
-            <div key={index} className="col-xs-12 col-sm-6 col-lg-3"><NewsSimplifiedCard history={this.props.history} entry={entry}/></div>
+            <div key={index} className="col-xs-12 col-sm-6 col-lg-3"><NewsSimplifiedCard history={this.props.history} entry={entry} /></div>
 
 
         )
@@ -101,7 +101,7 @@ export default class NewsSimplifiedCardHolder extends Component {
             <div className="row">
 
                 {entries &&
-                    entries.map((entry, index) => (
+                    entries.slice(0, 4).map((entry, index) => (
                         this.planCard(entry, index)
                     ))}
 

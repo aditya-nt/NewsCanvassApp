@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {  rdb } from '../../../firebase'
+import { rdb } from '../../../firebase'
 import NewsDecodedCard from '../../Posts/NewsDecodedCard';
 
 
@@ -61,7 +61,7 @@ export default class NewsDecodedCardHolder extends Component {
         return (
 
 
-            <div key={index}  className="col-xs-12 col-sm-6 col-lg-3"><NewsDecodedCard history={this.props.history} entry={entry}/></div>
+            <div key={index} className="col-xs-12 col-sm-6 col-lg-3"><NewsDecodedCard history={this.props.history} entry={entry} /></div>
 
 
         )
@@ -77,7 +77,7 @@ export default class NewsDecodedCardHolder extends Component {
         const { entries } = this.state;
 
 
-      
+
 
         return (
 
@@ -102,7 +102,7 @@ export default class NewsDecodedCardHolder extends Component {
             <div className="row">
 
                 {entries &&
-                    entries.map((entry, index) => (
+                    entries.slice(0, 4).map((entry, index) => (
                         this.planCard(entry, index)
                     ))}
 
